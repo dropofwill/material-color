@@ -1,32 +1,24 @@
 {
-  "name": "random-material-color",
-  "version": "1.0.3",
-  "description": "Generate a Random Color from Google Material UI palette",
-  "main": "dist/randomColor.js",
+  "name": "material-color",
+  "version": "1.0.0",
+  "description": "Simple JSON object of material-ui colors do with as you wish",
+  "main": "material-colors.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isuru88/random-material-color.git"
+    "url": "git+https://github.com/dropofwill/material-color.git"
   },
   "keywords": [
-    "Material",
-    "Color",
-    "UI"
+    "Material-UI",
+    "colors",
+    "data"
   ],
-  "author": "Isuru Jayasooriya",
-  "license": "MIT",
+  "author": "Will Paul <whp3652@rit.edu> (http://will-paul.com)",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isuru88/random-material-color/issues"
+    "url": "https://github.com/dropofwill/material-color/issues"
   },
-  "homepage": "https://github.com/isuru88/random-material-color",
-  "dependencies": {
-    "murmurhash-js": "^1.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-uglify": "^1.2.0"
-  }
+  "homepage": "https://github.com/dropofwill/material-color#readme"
 }
